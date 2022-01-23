@@ -17,8 +17,8 @@ def main_():
     main_title = myfont.render('Quantum Visualizer Modes:', False, (0, 0, 0))
     title2 = myfont2.render('1. Square Well Visualizer (1D)', False, (255, 255, 255))
     title3 = myfont2.render('2. Square Well Visualizer (2D)', False, (255, 255, 255))
-    title4 = myfont2.render('3. ODE Visualizer (1D)', False, (255, 255, 255))
-    title5 = myfont2.render('4. ODE Visualizer (2D)', False, (255, 255, 255))
+    title4 = myfont2.render('3. ODE Visualizer (1st Order)', False, (255, 255, 255))
+    title5 = myfont2.render('4. ODE Visualizer (2nd Order)', False, (255, 255, 255))
     title6 = myfont3.render('Esc to return', False, (255, 255, 255))
 
     while 1:
